@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bulb.css">
+    <title>Bulb on and off</title>
+</head>
+<body>
+    <button onclick="bulbOn()">On</button>
+    
+    
+    <img src="https://media.istockphoto.com/id/1348127516/photo/glowing-classic-light-bulb-with-filament.jpg?s=612x612&w=0&k=20&c=lmp8SHR3JgDh7rQLCeW5K25uvcZ4weKfIwI6Cuku9NM=" id="bulbImg" width="1090px" height="1090px" >
+    
+    <button onclick="bulbOff()">Off</button>
+
+    <script>
+        function bulbOn()
+        {
+            document.getElementById('bulbImg').src="https://media.istockphoto.com/id/1348127516/photo/glowing-classic-light-bulb-with-filament.jpg?s=612x612&w=0&k=20&c=lmp8SHR3JgDh7rQLCeW5K25uvcZ4weKfIwI6Cuku9NM="
+        }
+        function bulbOff()
+        {
+            document.getElementById('bulbImg').src="https://media.istockphoto.com/id/1348126965/photo/off-classic-light-bulb-with-filament-on-yellow-background.jpg?s=612x612&w=0&k=20&c=r1jdanpATTxrMhS5Ffvk0mdeE1qcEqjwGn5JOxbbCHM="
+        }
+        
+        
+    </script>
+</body>
+</html>
